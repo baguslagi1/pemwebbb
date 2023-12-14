@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #FFD700;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+ul li img {
+  float: left;
+  margin-right: 10px;
+  width: 60px;
+  height: auto;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.follow {
+  text-align: center;
+  padding: 20px;
+}
+
+.follow h3 {
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.follow a {
+  display: inline-block; 
+  margin: 20px auto;
+  padding: 5px;
+}
+
+.follow img {
+  width: 50px;
+  height: auto;
+}
+
+.card.about {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card.about h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card.about img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 10px; 
+}
+
+.card.about p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #FFD700;
+  color: #000;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.about {
+  max-width: 400px;
+}
+
+.contact {
+  max-width: 400px;
+}
+
+.contact p {
+  display: flex;
+  align-items: center;
+}
+
+.contact i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  padding: 10px 0;
+  text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>CRYPTO UNIVERSE</h1>
+  <p>Unlocking the Cryptocurrency Cosmos</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">HOME</a>
+  <a href="prices.html">PRICES</a>
+  <a href="airdrop.html">AIRDROP</a>
+  <a href="faq.html" style="float:right">FAQ</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card" id="btc"> 
+      <h2>Harga Bitcoin Mencapai Rekor Tertinggi dalam Sejarah, Menguatkan Stabilitas Pasar Kripto</h2>
+      <h5>Tanjungpinang, Okt 25, 2023</h5>
+      <img src="btc1.jpg" width="100%">
+      <p><b>Bitcoin,</b> mata uang kripto terbesar di dunia, mencapai rekor tertinggi sepanjang masa dengan harga mencapai $100,000 per koin. Kenaikan ini menciptakan gelombang kepercayaan dan optimisme di pasar cryptocurrency setelah sejumlah fluktuasi yang signifikan dalam beberapa bulan terakhir.</p>
+     
+      <p>Peningkatan harga Bitcoin sejalan dengan tren positif dalam aset digital lainnya, termasuk Ethereum dan beberapa altcoin populer. Para analis percaya bahwa faktor-faktor seperti adopsi lembaga keuangan besar dan peningkatan minat investor ritel telah memberikan dorongan besar pada kenaikan harga tersebut.</p>
+        
+      <p>Meskipun kenaikan harga ini menggembirakan bagi pemegang Bitcoin, beberapa ahli juga mengingatkan akan volatilitas yang terkait dengan cryptocurrency. Oleh karena itu, investasi dalam cryptocurrency tetap memerlukan pemahaman yang mendalam dan manajemen risiko yang bijak.</p>
+        
+      <p>Sementara itu, perhatian terus bertambah terhadap perkembangan teknologi blockchain, yang merupakan dasar dari cryptocurrency. Inovasi dalam teknologi ini akan terus memengaruhi berbagai sektor ekonomi dan memperluas potensi penggunaan cryptocurrency di masa depan.</p>
+    </div>
+
+    <div class="card" id="eth">
+      <h2>Ethereum 2.0 Siap Meluncurkan Fasa Pertama Upgrade Shard</h2>
+      <h5>Tanjungpinang, Okt 24, 2023</h5>
+      <img src="eth1.jpg" width="100%">
+      <p><b>Ethereum,</b> salah satu mata uang kripto terbesar di dunia, bersiap untuk meluncurkan fasa pertama dari upgrade jaringan Ethereum 2.0 yang sangat dinantikan. Tahap pertama ini akan memperkenalkan konsep "shard chains" yang akan meningkatkan kapasitas dan efisiensi jaringan.</p>
+
+      <p>Shard chains adalah bagian dari upaya Ethereum untuk meningkatkan skalabilitas jaringan, memungkinkan lebih banyak transaksi untuk diproses dengan cepat dan lebih efisien. Ini juga diharapkan akan mengurangi biaya transaksi yang tinggi yang telah menjadi masalah di jaringan Ethereum saat ini.</p>
+
+      <p>Fasa pertama upgrade ini merupakan langkah pertama dari serangkaian perubahan yang direncanakan untuk jaringan Ethereum. Pengembang dan komunitas cryptocurrency dengan cermat mengamati perkembangan ini karena dianggap sebagai langkah penting dalam masa depan Ethereum sebagai platform blockchain utama.</p>
+
+      <p>Ethereum 2.0 diperkirakan akan memainkan peran kunci dalam perkembangan DeFi (Keuangan Terdesentralisasi) dan ekosistem blockchain secara keseluruhan. Ini adalah langkah yang dinantikan oleh komunitas cryptocurrency, dan lebih banyak perubahan diharapkan dalam beberapa bulan mendatang.</p>
+    </div>
+
+    <div class="card">
+      <h2>Bank Sentral Australia Membahas Potensi Pengembangan Mata Uang Digital Nasional</h2>
+      <h5>Tanjungpinang, Okt 23, 2023</h5>
+      <img src="aus1.jpg" width="100%">
+      <p><b>Bank Sentral Australia,</b> Reserve Bank of Australia (RBA), telah mengumumkan bahwa mereka sedang menjajaki potensi pengembangan mata uang digital nasional (CBDC), yang akan menjadi mata uang digital yang dikeluarkan dan diawasi oleh bank sentral.</p>
+
+      <p>Keputusan ini diambil sebagai respons terhadap pertumbuhan yang pesat dalam penggunaan uang digital, seperti cryptocurrency dan platform pembayaran digital, di Australia. RBA mengakui bahwa CBDC memiliki potensi untuk meningkatkan efisiensi transaksi, memperkuat kebijakan moneter, dan meningkatkan aksesibilitas keuangan bagi warga Australia.</p>
+        
+      <p>Namun, RBA juga menekankan bahwa perencanaan dan pelaksanaan CBDC akan memerlukan pemikiran yang matang dan pertimbangan mendalam tentang dampak potensialnya terhadap sistem keuangan dan ekonomi Australia. Mereka berencana untuk terus berdiskusi dengan pemangku kepentingan, seperti pemerintah, sektor perbankan, dan masyarakat umum dalam perjalanan menuju pengembangan CBDC.</p>
+        
+      <p>Keputusan Bank Sentral Australia untuk menjelajahi CBDC menjadi bagian dari tren global di mana bank sentral di berbagai negara sedang mengkaji potensi penerbitan mata uang digital nasional. Ini adalah langkah yang menarik dalam perkembangan cryptocurrency dan teknologi blockchain serta berpotensi membawa dampak signifikan pada ekosistem keuangan Australia.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card about">
+      <h2>About Me</h2>
+      <img src="fp.png" alt="Bagus Adri Wandana">
+      <p> Kripto</p>
+      <p>Revolusi finansial digital, transaksi terenkripsi, dan blockchain mengubah paradigma uang global.</p>
+    </div>
+
+    <div class="card follow">
+      <h3 style="font-size: 24px; text-align: left;">Follow Me</h3>
+      <a href="https://wa.me/6285156448616" target="_blank">
+        <img src="wa.png" alt="WhatsApp">
+      </a>
+      <a href="https://instagram.com/bagusadri10" target="_blank">
+        <img src="ig.png" alt="Instagram">
+      </a>
+      <a href="https://facebook.com/bagusadriwandana" target="_blank">
+        <img src="fb.png" alt="Facebook">
+      </a>
+    </div>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer-content">
+    <div class="footer-section about">
+      <p><b>At Your Crypto Exchange, we are dedicated to providing you with the latest information on cryptocurrency and blockchain technology.</b></p>
+    </div>
+    <div class="footer-section contact">
+      <h2>Contact Information</h2>
+      <p><i class="fa fa-map-marker"></i> Tanjungpinang, Kepulauan Riau</p>
+      <p><i class="fa fa-phone"></i> +6285156448616</p>
+      <p><i class="fa fa-envelope"></i> bagustothemoon@gmail.com.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2023 Crypto Universe | Bagus Adri Wandana
+  </div>
+</div>
+
+
+</body>
+</html>
